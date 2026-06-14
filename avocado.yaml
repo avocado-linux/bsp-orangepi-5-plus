@@ -4,7 +4,7 @@ supported_targets:
 
 extensions:
   avocado-bsp-orangepi-5-plus:
-    version: 2024.1.0
+    version: 0.1.0
     release: r0
     summary: Board support for the Orange Pi 5 Plus (RK3588)
     description: Board support for the Orange Pi 5 Plus (RK3588 SBC, mainline kernel)
