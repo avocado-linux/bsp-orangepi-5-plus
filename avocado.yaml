@@ -25,3 +25,6 @@ extensions:
     # certain to exist in the linux-yocto-dev feed. Iterate after the first
     # build informs which RK3588 drivers are actually built as modules.
     packages: {}
+
+sdk:
+  image: docker.io/avocadolinux/sdk:{{ env.AVOCADO_DISTRO_RELEASE }}
