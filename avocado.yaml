@@ -9,7 +9,7 @@ extensions:
     summary: Board support for the Orange Pi 5 Plus (RK3588)
     description: Board support for the Orange Pi 5 Plus (RK3588 SBC, mainline kernel)
     license: Apache-2.0
-    url: https://github.com/avocadolinux/avocado-os
+    url: https://github.com/avocado-linux/bsp-orangepi-5-plus
     vendor: Avocado Linux <info@avocadolinux.org>
 
     types:
