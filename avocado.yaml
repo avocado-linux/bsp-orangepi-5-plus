@@ -4,7 +4,7 @@ supported_targets:
 
 extensions:
   avocado-bsp-orangepi-5-plus:
-    version: 2024.1.0
+    version: 0.1.0
     release: r0
     summary: Board support for the Orange Pi 5 Plus (RK3588)
     description: Board support for the Orange Pi 5 Plus (RK3588 SBC, mainline kernel)
@@ -25,3 +25,6 @@ extensions:
     # certain to exist in the linux-yocto-dev feed. Iterate after the first
     # build informs which RK3588 drivers are actually built as modules.
     packages: {}
+
+sdk:
+  image: docker.io/avocadolinux/sdk:{{ env.AVOCADO_DISTRO_RELEASE }}
